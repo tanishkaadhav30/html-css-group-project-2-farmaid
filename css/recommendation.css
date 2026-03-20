@@ -40,3 +40,48 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+header {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #1b5e20, #4caf50);
+    color: white;
+}
+.recommend-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.recommend-card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+.recommend-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card-btn:hover {
+    background: linear-gradient(45deg, #1b5e20, #81c784);
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.top-info h2 {
+    color: #1b5e20;
+    margin-bottom: 10px;
+}
+
+.info-box h3 {
+    color: #2e7d32;
+}
+.info-box:hover {
+    transform: translateY(-8px);
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
