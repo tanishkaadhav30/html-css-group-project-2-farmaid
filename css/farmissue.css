@@ -1,3 +1,96 @@
-h1{
-    padding: auto;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f1f8e9;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to right, #2e7d32, #66bb6a);
+    color: white;
+}
+
+/* INFO SECTION */
+.info-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-text {
+    flex: 1;
+}
+
+.info-text h2 {
+    color: #2e7d32;
+}
+
+/* IMAGE FIX */
+.info-img {
+    flex: 1;
+    text-align: center;
+}
+
+.info-img img {
+    width: 100%;
+    height: 300px;   /* 🔥 FIXED SIZE */
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.img-caption {
+    font-size: 14px;
+    color: gray;
+}
+
+/* CARDS */
+.issue-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 40px;
+    gap: 25px;
+}
+
+.issue-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 350px;   /* SAME SIZE */
+    transition: 0.3s;
+}
+
+.issue-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.issue-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 12px;
+}
+
+/* BUTTON */
+.next-section {
+    text-align: center;
+    margin: 40px;
+}
+
+.next-section a {
+    padding: 12px 25px;
+    background: #2e7d32;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
 }
