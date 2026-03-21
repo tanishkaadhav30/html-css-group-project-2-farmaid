@@ -30,6 +30,14 @@ body {
     color: #1b5e20;
     font-size: 20px;
 }
+.content p {
+    font-size: 15px;
+    margin: 4px 0;
+}
+.next-section {
+    text-align: center;
+    margin: 30px;
+}
 
 
 
