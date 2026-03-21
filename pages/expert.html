@@ -1,9 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-        <title>Expect Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Expert page </title>
+    <link rel="stylesheet" href="./../css/expert.css">
 </head>
+
 <body>
-    <h1>Expect</h1>
+    <!--main section-->
+     <div class="main-button">
+                <input type="text" placeholder="Search Experts" class="main-btn" />
+                <button class="main-btn"> Book Consultation
+                    <input type="date" / class="main-btn"> </button>
+                <input placeholder="Ask Question" type="text" class="main-btn" />
+      </div>
+    <div class="main-hero-section">
+    </div>
+    <div class="main-container">
+         <span class="main-heading"> Get Expert Advice for Your Farm </span>
+        <span class="main-heading-2"> Connect with certified agriculture experts anytime </span>
+    </div>
+
+    <!-- Expert section -->
+    <div class="expert-container">
+        <div class="expert-card">
+            <h3 class="expert-name"> Soil Experts </h3>
+             <p class="expert-name">Improve soil health and fertility</p>
+            <img src="./../images/exp1.jpeg" class="exp" height="280px" width="280px" alt="experts" />
+            <span class="expert-name"> Dr.Echan </span>
+            <span class="expert-name"> Experience: 10 years </span>
+            <div class="expert-rate">
+                <img src="./../images/star-svgrepo-com (3).png" height="10px" width="10px" alt="search"
+                    class="search" />
+                <span> Rating 3.5 </span>
+            </div>
+            <button class="exp-btn"> Consult Now</button>
+        </div>
+
+        <div class="expert-card">
+            <h3 class="expert-name"> Crop Specialists</h3>
+            <p class="expert-name">Get help for crop growth and diseases</p>
+            <img src="./../images/exp2.jpeg" class="exp" height="280px" width="280px" alt="experts" />
+            <span class="expert-name"> Dr.Meena Sharma </span>
+            <span class="expert-name"> Experience: 12 years </span>
+            <span class="expert-rate">
+                <img src="./../images/star-svgrepo-com (3).png" height="10px" width="10px" alt="search"
+                    class="search" />
+                Rating 3.6 </span>
+            <button class="exp-btn"> Consult Now</button>
+        </div>
+
+        <div class="expert-card">
+            <h3 class="expert-name">Weather Advisors </h3>
+                 <p class="expert-name">Plan farming based on weather</p>
+            <img src="./../images/exp3.jpeg" class="exp" height="280px" width="280px" alt="experts" />
+            <span class="expert-name"> Dr.Raj Vikhe</span>
+            <span class="expert-name"> Experience: 20 years</span>
+            <div class="expert-rate">
+                <img src="./../images/star-svgrepo-com (3).png" height="10px" width="10px" alt="search"
+                    class="search" />
+
+                <span>Rating 2.5 </span>
+            </div>
+            <button class="exp-btn"> Consult Now</button>
+        </div>
+
+        <div class="expert-card">
+            <h3 class="expert-name"> Organic Farming Experts </h3>
+             <p class="expert-name">Learn organic farming techniques</p>
+            <img src="./../images/exp4.jpeg" class="exp" height="280px" width="280px" alt="experts" />
+            <span class="expert-name"> Dr. Rajesh Patil </span>
+            <span class="expert-name"> Experience: 16 years</span>
+            <div class="expert-rate">
+                <img src="./../images/star-svgrepo-com (3).png" height="10px" width="10px" alt="search"
+                    class="search" />
+                <span "> Rating 4.5 </span>
+            </div>
+            <button class="exp-btn">
+                Consult Now </button>
+        </div>
+    </div>
+
+
+<div class=" form-container">
+  <h2>Book Appointment</h2>
+
+  <!-- farmer form -->
+  <label>Farmer Name</label>
+  <input type="text" placeholder="Enter your name">
+
+  <!-- Expert -->
+  <label>Select Expert</label>
+  <select>
+    <option>Dr. Rajesh Patil</option>
+    <option>Dr. Meena Sharma</option>
+    <option> Dr. Raj Vikhe </option>
+    <option> Dr. Echan </option>
+  </select>
+
+  <!-- Date -->
+  <label>Appointment Date</label>
+  <input type="date">
+
+  <!-- Time Slots -->
+  <label>Available Time</label>
+  <div class="time-slots">
+    <button>9:00 AM</button>
+    <button>10:00 AM</button>
+    <button>11:00 AM</button>
+    <button>1:00 PM</button>
+    <button>2:00 PM</button>
+    <button>3:00 PM</button>
+    <button>4:00 PM</button>
+    <button>5:00 PM</button>
+  </div>
+
+  <!-- Submit -->
+  <button class="submit-btn">Confirm Date & Time</button>
+
+</div>
 </body>
 </html>
