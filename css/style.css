@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: #d7f1cc;
+    background: linear-gradient(135deg, #d0e3a4, #9ec7a3)
 }
 
 .main-hero-section{
@@ -168,7 +168,7 @@ margin-left: 50px;
 }
 .stpes-cards{
     border: 1px solid #e0e0e0;
-    background-color: #ffffff;
+   background-color:  #FFFAEC; 
     border-radius: 15px;
     padding: 30px 20px;
     width: 250px;
@@ -367,4 +367,131 @@ margin-left: 50px;
     font-size: 32px;
     font-family: 'poppins',sans-serif;
 
+}
+/* --- Blue CTA Banner --- */
+.footer-cta {
+    background-color: #94a7bc; /* Bright Blue like image */
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-cta h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-explore, .btn-contact {
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-explore:hover{
+    
+    color:black;
+    box-shadow: 1px 2px rgb(143, 131, 131);
+
+}
+ .btn-contact:hover{
+   
+    color:black;
+    box-shadow: 1px 2px rgb(143, 131, 131);
+}
+
+.btn-explore {
+    background: white;
+    color: #007bff;
+}
+
+.btn-contact {
+    background: #ff9800; /* Orange color like image */
+    color: white;
+}
+
+/* --- Main Footer (Dark Section) --- */
+.main-footer {
+    background-color: #2c3237; /* Dark Navy Blue */
+    color: #e0e0e0;
+
+    padding: 50px 0 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 350px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.footer-logo {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-col h4 {
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.social-icons a {
+    color: white;
+}
+
+/* Footer Copyright bar */
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #1b263b;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #888;
 }
