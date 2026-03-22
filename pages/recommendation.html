@@ -1,76 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-       <title>Farmaid Recommendations</title>
-       <link rel="stylesheet" href="./../css/recommendation.css">
+    <title>Smart Recommendations</title>
+    <link rel="stylesheet" href="./../css/recommendation.css">
+    <link rel="stylesheet" href="./../css/navbar.css">
 
 </head>
 <body>
-    <section class="top-info">
+    <div class="main-container">
+        <div class="lmg-contanair"><img src="./../images/logo-icon.png" alt="logo" 
+            class="main-logo-img">
 
-        <h2>🌾 Smart Farming Recommendations</h2>
-
-        <p class="intro">
-        Modern agriculture requires smart decision-making to increase productivity 
-        and reduce losses. Our recommendation system helps farmers choose the best 
-        techniques based on soil, weather, and crop conditions.
-    </p>
-
-    <div class="info-grid">
-        <div class="info-box">
-            <h3>🌱 Better Yield</h3>
-            <p>Use scientific methods to increase crop production and quality.</p>
+            <span class="farm">Farm</span><span class="aid">aid</span>
         </div>
+        <div class="nav-menu">
+            <a href="./index.html" class="menu">Home</a>
+            <a href="./about.html" class="menu">About</a>
+            <a href="./farmissue.html" class="menu">Farm Issues</a>
+            <a href="./recommendation.html" class="menu">Recommendations</a>
+            <a href="./weather.html" class="menu">Weather</a>
+            <a href="./expert.html"class="menu">Experts</a>
+            <a href="./contact.html" class="menu">Contact</a>
 
-        <div class="info-box">
-            <h3>💧 Water Management</h3>
-            <p>Efficient irrigation techniques help save water and improve growth.</p>
-        </div>
+            <a href="./contact.html"class="menu" ><span class="lgin">Login</span></a>
 
-        <div class="info-box">
-            <h3>🌿 Healthy Soil</h3>
-            <p>Maintain soil nutrients using organic and balanced fertilizers.</p>
-        </div>
-
-        <div class="info-box">
-            <h3>🐛 Crop Protection</h3>
-            <p>Protect crops from pests and diseases using eco-friendly methods.</p>
         </div>
     </div>
- </section>
 
- <section class="recommend-container">
+    <div class="main">
 
-    <div class="recommend-card">
-        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef">
-        <div class="content">
-            <h2>🌱 Soil Testing</h2>
-            <p>Check soil nutrients before planting crops.</p>
-            <button class="card-btn">Learn More</button>
- 
+    <h1>Smart Recommendations for Your Farm</h1>
+    <p class="subtitle">Based on conditions, we suggest crops, fertilizers, 
+        and care tips.</p>
+
+    <h3>Soil Summary</h3>
+    <div class="grid small">
+        <div class="box"><i class="fas fa-vial"></i><p>pH Level<br><b>6.8</b></p></div>
+        <div class="box"><i class="fas fa-leaf"></i><p>Nitrogen<br><b>Low</b></p></div>
+        <div class="box"><i class="fas fa-tint"></i><p>Moisture<br><b>Moderate</b></p></div>
+        <div class="box"><i class="fas fa-seedling"></i><p>Soil Health<br><b>Good</b></p></div>
+    </div>
+
+    <h3>Recommended Crop</h3>
+    <div class="grid">
+
+        <div class="card">
+            <i class="fas fa-wheat-awn icon"></i>
+            <h4>Wheat</h4>
+            <p>current soil moisture and temperature</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-seedling icon"></i>
+            <h4>Rice</h4>
+            <p>Best for moderate water conditions</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-leaf icon"></i>
+            <h4>Cotton</h4>
+            <p>Grows well in warm climates</p>
+            <button>View Details</button>
+        </div>
+
+    </div>
+    <h3>Recommended Fertilizer</h3>
+    <div class="grid">
+
+        <div class="card">
+            <i class="fas fa-bag-shopping icon"></i>
+            <h4>NPK</h4>
+            <p>Improves nitrogen deficiency</p>
+            <p>₹450 / bag</p>
+            <button class="buy">Apply / Buy</button>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-flask icon"></i>
+            <h4>Urea</h4>
+            <p>Boosts nitrogen level</p>
+            <p>₹450 / bag</p>
+            <button class="buy">Apply / Buy</button>
+        </div>
+
+    </div>
+    <h3>Why These Recommendations</h3>
+    <div class="grid small">
+        <div class="box"><i class="fas fa-seedling"></i><p>Based on Soil</p></div>
+        <div class="box"><i class="fas fa-tint"></i><p>Based on Moisture</p></div>
+        <div class="box"><i class="fas fa-cloud-sun"></i><p>Based on Weather</p></div>
+    </div>
+
+    <h3>Seasonal Tips</h3>
+    <div class="grid small">
+        <div class="box"><i class="fas fa-clock"></i><p>Water crops early morning</p></div>
+        <div class="box"><i class="fas fa-cloud-rain"></i><p>Avoid spraying before rain</p></div>
+        <div class="box"><i class="fas fa-chart-line"></i><p>Monitor soil regularly</p></div>
+    </div>
+
+    <button class="main-btn">Get Expert Advice</button>
     
-        </div>
-    </div>
 
-    <div class="recommend-card">
-        <img src="https://images.unsplash.com/photo-1589927986089-35812388d1f4">
-        <div class="content">
-            <h2>🧪 Fertilizer Use</h2>
-            <p>Apply organic fertilizers to improve soil health.</p>
-            <button class="card-btn">Learn More</button>
-        </div>
-    </div>
-
- 
-
-
-  <div class="recommend-card">
-        <div class="content">
-            <h2>🐛 Pest Control</h2>
-            <p>Protect crops using eco-friendly pesticides.</p>
-            <button class="card-btn">Learn More</button>
-        </div>
-    </div>
+</div>
     
 </body>
 </html>

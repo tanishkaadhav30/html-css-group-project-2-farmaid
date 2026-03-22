@@ -1,3 +1,185 @@
-body{
-    background-color: aquamarine;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-hero-section{
+    background-image: url(./../images/farmer-home-img.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.9;
+    padding-left: 50px;
+    padding-bottom: 10px;
+
+}
+.wlcome-heading{
+
+   font-family:'poppins',sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: rgb(9, 61, 96);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.sub-heading{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 50px;
+    font-family: 'poppins',sans-serif;
+}
+.para1{
+    padding-bottom: 30px;
+    font-size: 20px;
+     padding-left: 10px;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+    color: navy;
+}
+.issue-btn{
+margin-left: 50px;
+}
+.weather-btn{
+    margin-left: 50px;
+    
+}
+.btns{
+    margin-left: 40px;
+    
+}
+.issue-btn{
+  background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
+}
+
+.issue-btn {
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(24, 22, 22);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  display: inline;
+  outline: none;
+  border: none;
+  margin-right: 30px;
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.issue-btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.weather-btn{
+  background-image: linear-gradient(to right, #c1c5b1 0%, #3e1dd5 51%, #414d0b 100%);
+}
+
+.weather-btn {
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(8, 7, 7);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  display: inline;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.weather-btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.clicable-btn{
+    text-decoration: none;
+}
+.highlighted-text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.high-text{
+    
+    padding: 9px;
+    margin-top: 5px;
+    background-color:  rgb(196, 149, 56);
+    border-radius: 2px 22px 2px 22px;
+    box-shadow: 2px 1px 4px 2px black;
+}
+.platform-hrading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'poppins',sans-serif;
+
+}
+.platform-heading-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.sub-card1{
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: tranform 0.3s ease, box-shadow 0.3 ease;
+
+}
+
+.sub-card1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.second-heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'poppins',sans-serif;
+}
+.stpes-cards{
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: tranform 0.3s ease, box-shadow 0.3 ease;
+
+}
+.stpes-cards:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.steps-contanair{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
 }
