@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+body{
+    background-color: #d7f1cc;
 }
 
 .main-hero-section{
@@ -146,6 +150,7 @@ margin-left: 50px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     transition: tranform 0.3s ease, box-shadow 0.3 ease;
+    background-color: #FFFAEC ;
 
 }
 
@@ -170,6 +175,9 @@ margin-left: 50px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     transition: tranform 0.3s ease, box-shadow 0.3 ease;
+    background-color: #FFFAEC ;
+
+
 
 }
 .stpes-cards:hover{
@@ -182,4 +190,20 @@ margin-left: 50px;
     justify-content: space-around;
     margin-top: 20px;
     
+}
+.isuue-contanair{
+     display: grid;
+     grid-template-columns:  repeat(3,1fr);
+     gap: 20px;
+     padding: 20px;
+     max-width: 900px;
+     margin: 0 auto;
+}
+.section-heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'poppins',sans-serif;
 }
