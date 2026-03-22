@@ -28,9 +28,12 @@
     </div>
     <div class="main-heroo-section">
         <div class="main-button">
-            <p type="text" class="main-btnn"> <a href="#experts"> Search Experts </a> </p>
-            <p type="text" class="main-btnn"> <a href="#appointment"> Book Appointment </a></p>
-            <p type="text" class="main-btnn" /> <a href="#Ask"> Get Advice</a>
+            <p type="text" class="main-btnn">
+                <img src="./../images/search-alt-svgrepo-com.png" height="20px" width="20px"/> <a href="#experts"> Search Experts </a> </p>
+            <p type="text" class="main-btnn"><img src="./../images/calendar-svgrepo-com.png" height="20px" width="20px"
+                alt="date"/> <a href="#appointment"> Book Appointment </a></p>
+            <p type="text" class="main-btnn" /> <img src="./../images/call-receive-svgrepo-com (2).png" height="20px" width="20px"
+            alt="call"/><a href="#Ask"> Get Advice</a>
         </div>
         <!--main section-->
 
@@ -99,12 +102,31 @@
         
       
 <div class=" container" id="appointment">
-                    <h2 class="h2"> Book Appointment </h2>
-                    <hr />
+                    
                     <form>
+                         <div class="left-side">
+  <div class="contact" id="Ask">
+    <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"> Get Expert Advice 🌾</h1>
+    <p>
+      Improve your farming with smart guidance.
+      Get help for crops, soil, and weather.
+    </p>
+
+    <!-- Phone Number -->
+    <p class="contact" >📞 Call Us : <a href="tel:9876543210" target="_blank">9876543210</a></p>
+
+    <!-- Buttons -->
+    <div class="btns">
+      <button class="input">Get Advice</button>
+      <a href="tel:9876543210" class="input" target="_blank">Call Now</a>
+    </div>
+  </div>
+</div>
+<h2 class="h2"> Book Appointment </h2>
+                    <hr />
                         <div class="row">
                             <input type="text" placeholder="Enter Name :" class="input" required />
-                            <input type="text" class="input" for="entercity" placeholder="Enter City/village:"
+                            <input type="text" class="input"  for="entercity" placeholder="Enter City/village:"
                                 required />
 
                             <input placeholder="Enter Mobile Number :" type="tel" id="enter mobile number" class="input"
@@ -114,8 +136,8 @@
                         <br />
                         <div class="row">
                             <label>Doctor</label>
-                            <input list="Choosedr" required />
-                            <datalist id="Choosedr">
+                            <input list="Choosedr" value="Dr.Echan" required />
+                            <datalist id="Choosedr" >
 
                                 <option>Dr. Echan</option>
                                 <option>Dr. Meena Sharma</option>
@@ -167,16 +189,12 @@
                             <br /> <br />
                             <label for="fileinput"> upload video : </label>
                             <input type="file" id="fileinput" accept="video/*" required />
+                            <br />  
                             <br /> 
-                            
-                            <br /> 
+                        
                         </div>
-
                     </form>
-        </div>
-    </div>
-
-
+</div>         
 </body>
 
 </html>
