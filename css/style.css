@@ -4,14 +4,14 @@
 }
 
 .main-hero-section{
-    background-image: url(./../images/farmer-home-img2.jpeg);
-    background-size: cover;
+    background-image: url(./../images/farmer-home-img.jpg);
+    background-size:cover;
     background-position: center;
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     opacity: 0.9;
-    padding-left: 10px;
-    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-bottom: 10px;
 
 }
 .wlcome-heading{
@@ -20,17 +20,17 @@
     padding-top: 20px;
     padding-left: 20px;
     color: rgb(9, 61, 96);
-    font-size: 50px;
-    padding-bottom: 30px;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 .sub-heading{
     padding-bottom: 30px;
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'poppins',sans-serif;
 }
 .para1{
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     font-size: 20px;
      padding-left: 10px;
     font-weight: 600;
@@ -105,4 +105,81 @@ margin-left: 50px;
 }
 .clicable-btn{
     text-decoration: none;
+}
+.highlighted-text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.high-text{
+    
+    padding: 9px;
+    margin-top: 5px;
+    background-color:  rgb(196, 149, 56);
+    border-radius: 2px 22px 2px 22px;
+    box-shadow: 2px 1px 4px 2px black;
+}
+.platform-hrading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'poppins',sans-serif;
+
+}
+.platform-heading-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.sub-card1{
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: tranform 0.3s ease, box-shadow 0.3 ease;
+
+}
+
+.sub-card1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.second-heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'poppins',sans-serif;
+}
+.stpes-cards{
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: tranform 0.3s ease, box-shadow 0.3 ease;
+
+}
+.stpes-cards:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.steps-contanair{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
 }
