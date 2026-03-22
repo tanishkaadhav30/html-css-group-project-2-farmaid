@@ -2,8 +2,52 @@
 <html>
 <head>
         <title>Login/sign up</title>
+        <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
-    <h1>Login/sign up</h1>
+    <div class="main-wrapper">
+        <div class="split-main-card">
+            <div class="main-sectionlogin-side">
+                <div class="section-header">
+                    <h2>Log in to our site</h2>
+                    <p>Enter email and password to log on:</p>
+                    <div class="img-header-login"><img src="../images/signup.png" height="48px" width="48px" ></div>
+                </div>
+                <div class="section-body">
+                    <form>
+                        <input type="email" placeholder="Email..." required>
+                        <input type="password" placeholder="Password..." required>
+                        <button type="submit" class="btn-primary">Sign in!</button> 
+                    </form>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="main-sectionsignin-side">
+                <div class="section-header">
+                    <h2>Sign up now</h2>
+                    <p>Fill in the form below to get instant access:</p>
+                    <div class="img-header-signup">
+                    <img src="../images/google-icon.png">
+                    <img src="../images/twitter-icon.png">
+                    <img src="../images/facebook-icon.png">
+                    </div>
+                </div>
+                <div class="section-body">
+                    <form>
+                        <input type="text" placeholder="Full Name..." required>
+                        <input type="email" placeholder="Email..." required>
+                        <select required>
+                            <option value="" disabled selected>Select Role(Farmer/Expert)...</option>
+                            <option value="farmer">Farmer</option>
+                            <option value="expert">Expert</option>
+                        </select>
+                        <textarea placeholder="Tell us about your farm/expertise..." rows="3"></textarea>
+                        <button type="submit" class="btn-primary">Sign me up!</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>        
 </body>
 </html>

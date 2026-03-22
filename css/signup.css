@@ -1,3 +1,132 @@
 body{
-    background-color: lightgrey;
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans',sans-serif;
+    background:linear-gradient(135deg,#d4fc79,#96e6a1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding:20px;
+}
+.main-wrapper{
+    width:100%;
+    max-width:1000px;
+}
+
+.split-main-card{
+    background:transparent;
+    display:flex;
+    flex-direction:row;
+    gap:40px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.main-section{
+    flex: 1;
+    background-color:#eee;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    max-width: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.divider{
+    width:2px;
+    background-color:rgba(255,255,255,0.3);
+    margin:40px 0;
+}
+
+.section-header{
+    background-color:rgb(208, 245, 190);
+    padding:30px;
+    text-align: left;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+
+}
+
+.section-body{
+    background:#FFFAEC;
+    padding: 30px;
+    border-top: 1px solid  rgb(48, 86, 105);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h2{
+    color:#455a64;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+p{
+    color:#78909c;
+    font-size:14px;
+    margin-bottom: 5px;
+}
+
+input,select,textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom:18px;
+    border:1px solid #ccc6c0;
+    border-radius: 8px;
+    background: #ffffff;
+    font-size: 15px;
+    color: #455a64;
+    outline:none;
+    transition: 0.3s;
+}
+
+input:focus,select:focus,textarea:focus{
+    border-color: #455a64;
+    box-shadow: 0 0 5px rgba(69,90,100,0.2);
+}
+
+.btn-primary {
+    width: 100%;
+    padding:15px;
+    background-color: rgb(193, 120, 90);
+    color:#ffffff;
+    border:none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor:pointer;
+    font-weight:600;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+
+.btn-primary:hover{
+    background-color:#263238;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1)
+}
+
+.img-header-signup{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img-header-login{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media (max-width:850px){
+    .split-main-card{
+        flex-direction: column;
+        align-items: center;
+    } 
+    .main-section{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .divider{
+        display: none;
+    }   
 }
