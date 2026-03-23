@@ -1,3 +1,58 @@
-.h1{
-    color: antiquewhite;
+.footer-main-container {
+    width: 100%;
+    height: 210px;
+    background:linear-gradient(135deg, #1E88E5 0%,#aec795 100%);
+    color: #fff;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin: 0;
+    align-items: center;
+   box-shadow: 0 4px 12px rgba(23, 19, 19, 0.1);
+
+}
+
+.main-logoo-image {
+    width: 90px;
+    height: 80px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footer-child-item-1 {
+    width: 45%;
+}
+
+.footer-child-item {
+    width: 16%;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-main-container {
+        height: auto;
+        padding: 20px;
+
+    }
+
+    .footer-menu-container {
+        flex-direction: column;
+        padding: 20px 35px;
+
+    }
+    .footer-child-item-1  {
+   width: 100%;
+}
+
+.footer-child-item {
+    width: 100%;
+
+}
 }
