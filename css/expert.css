@@ -1,5 +1,8 @@
 body {
-    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#d4fc79,#96e6a1);
+   
 }
 
 .main-heroo-section {
@@ -13,14 +16,12 @@ body {
 
 .main-button {
     height: 50px;
-    width: 800px;
+    width: 1260px;
     align-items: center;
-    border-radius: 30px;
-    margin-left: 220px;
     padding-top: 10px;
     text-decoration: none;
     color: black;
-    background: linear-gradient(135deg, #1E88E5 0%, #aec795 100%);
+    background:linear-gradient(135deg,#d4fc79,#d9fe81);
     gap: 5px;
     display: flex;
     flex-direction: row;
@@ -294,9 +295,21 @@ body {
 
 .input {
     width: 100%;
+    height: 30px;
     padding: 10px;
     border: 1PX solid #CCC;
-    border-radius: 6px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #c1c5b1 0%, #cdc3fb 45%, #aec545 100%);
+    color: black;
+    text-align: center;
+}
+.inputs {
+    width: 100%;
+    
+    padding: 15px;
+    border: 1PX solid #CCC;
+    border-radius: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: linear-gradient(to right, #c1c5b1 0%, #cdc3fb 45%, #aec545 100%);
     color: black;
@@ -304,6 +317,11 @@ body {
 }
 
 .input:hover {
+    background-image: linear-gradient(to right, #c1c5b1 0%, #4a29e1 45%, #aec545 100%);
+    color: white;
+    transition: 3s;
+}
+.inputs:hover {
     background-image: linear-gradient(to right, #c1c5b1 0%, #4a29e1 45%, #aec545 100%);
     color: white;
     transition: 3s;
@@ -326,11 +344,13 @@ body {
 
 .confirm-btn {
     width: 100%;
+    height: 40px;
+    margin-top: 30px;
     padding: 10px;
     background-image: linear-gradient(to right, #c1c5b1 0%, #694bef 45%, #aec545 100%);
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 50px;
     cursor: pointer;
     font-size: 16px;
     transition: 2s;
@@ -387,15 +407,16 @@ body {
 
 .btns {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     margin-left: 70px;
     margin-top: 10px;
+    height: 60px;
     text-align: center;
     align-items: center;
 }
 
 .call-btn {
-    padding: 10px 15px;
+    padding: 5px 5px;
     background-image: linear-gradient(to right, #c1c5b1 0%, #694bef 45%, #aec545 100%);
     color: white;
     border-radius: 6px;
@@ -406,6 +427,19 @@ body {
 .call-btn:hover {
     background-image: linear-gradient(to right, #c1c5b1 0%, #3e1dd5 59%, #414d0b 100%);
     color: white;
+}
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-buttons a {
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #11998e, #38ef7d);
 }
 /* 📱 Mobile View */
 @media (max-width: 600px) {
