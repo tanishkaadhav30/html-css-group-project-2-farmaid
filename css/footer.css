@@ -1,13 +1,25 @@
+<<<<<<< HEAD
 /* FOOTER */
+=======
+
+>>>>>>> 53f310092eca5fe81f7edd23dc2c2f645dea7ad1
 .footer-container {
     display: flex;
     justify-content: space-around;
     padding: 30px;
+<<<<<<< HEAD
     background-color: #2e7d32;
     color: white;
 }
 
 /* SECTIONS */
+=======
+    background-color: #333;
+    color: white;
+}
+
+
+>>>>>>> 53f310092eca5fe81f7edd23dc2c2f645dea7ad1
 .footer-section-1,
 .footer-section-2,
 .footer-section-3,
@@ -17,8 +29,11 @@
     gap: 15px;
     width: 25%;
 }
+<<<<<<< HEAD
 
 /* LOGO */
+=======
+>>>>>>> 53f310092eca5fe81f7edd23dc2c2f645dea7ad1
 .logo-container {
     display: flex;
     align-items: center;
@@ -29,7 +44,11 @@
     font-size: 22px;
 }
 
+<<<<<<< HEAD
 /* SOCIAL ICONS */
+=======
+
+>>>>>>> 53f310092eca5fe81f7edd23dc2c2f645dea7ad1
 .social-icon-container {
     display: flex;
     gap: 15px;
@@ -44,26 +63,40 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* LINKS */
+=======
+
+>>>>>>> 53f310092eca5fe81f7edd23dc2c2f645dea7ad1
 .menu-subitem {
     text-decoration: none;
     color: white;
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 ul {
     list-style: none;
     padding: 0;
 }
 
 /* CONTACT */
+=======
+
+
+
+>>>>>>> 53f310092eca5fe81f7edd23dc2c2f645dea7ad1
 .contact-item {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+<<<<<<< HEAD
 /* RESPONSIVE */
+=======
+
+>>>>>>> 53f310092eca5fe81f7edd23dc2c2f645dea7ad1
 @media (max-width: 768px) {
 
     .footer-container {
