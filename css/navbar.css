@@ -76,6 +76,38 @@ height: auto;
     
 }
 
+@media (max-width: 768px) {
+    .main-container {
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        padding-right: 80px;
+    }
+
+    .nav-menu {
+        display: none ;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .menu-toggle:checked~.nav-menu {
+        display: flex;
+    }
+
+    .menu-toggle:checked~.hamburger {
+        content: "x";
+    }
+
+    .menu {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 992px) {
 
     .main-container{
