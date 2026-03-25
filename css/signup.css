@@ -154,7 +154,7 @@ nav {
 .login-btn {
   width: 100%;
   padding: 12px;
-  background: #192546;
+  background-image: linear-gradient(to right, #117a47 0%, #8ed40c 51%, #0dc6cc 100%);
   color: white;
   border: none;
   border-radius: 25px;
@@ -189,4 +189,132 @@ nav {
 .signup-link {
   color: white;
   text-decoration: none;
+
+}
+/* ================= MOBILE (≤480px) ================= */
+@media screen and (max-width:480px){
+
+  .div2{
+    height: auto;
+    padding: 100px 10px 30px;
+  }
+
+  .container{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .left{
+    width: 100%;
+    padding: 15px;
+  }
+
+  .right{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+  }
+
+  .right-text{
+    position: static;
+    width: 100%;
+  }
+
+  .heading-container{
+    font-size: 22px;
+  }
+
+  .input-field{
+    padding: 10px;
+  }
+
+  .login-btn{
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  /* Navbar */
+  .main-container{
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-menu{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .menu{
+    font-size: 14px;
+  }
+
+  /* Footer */
+  .footer-container{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+
+/* ================= TABLET (481px – 768px) ================= */
+@media screen and (max-width:768px){
+
+  .div2{
+    height: auto;
+    padding-top: 100px;
+  }
+
+  .container{
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .left, .right{
+    width: 100%;
+  }
+
+  .right{
+    height: 250px;
+  }
+
+  .right-text{
+    position: static;
+    width: 100%;
+  }
+
+  .nav-menu{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+
+/* ================= LAPTOP (769px – 1024px) ================= */
+@media screen and (max-width:1024px){
+
+  .container{
+    width: 90%;
+  }
+
+  .nav-menu{
+    gap: 20px;
+  }
+
+  .footer-container{
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
