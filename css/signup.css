@@ -71,7 +71,7 @@ nav {
  .container {
   width: 900px;
   height: 460px;
-  background: #fff;
+  background-color:  #FFFAEC;
   display: flex;
   border-radius: 10px;
   overflow: hidden;
