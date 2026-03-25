@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
-
+    
 <head>
+    
+    <title>Signup</title>
+    <link rel="stylesheet" href="./../css/singup.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet" href="./../css/navbar.css">
 
-  <title>Singup</title>
-  <link rel="stylesheet" href="./../css/signup.css">
-  <link rel="stylesheet" href="./../css/navbar.css">
-  <link rel="stylesheet" href="./../css/footer.css">
-  
+
 </head>
 
 <body>
 
-     <div class="main-container">
+    <div class="main-container">
         <div class="lmg-contanair">
             <img src="../images/logo-icon.png" class="main-logo-img">
             <span class="farm">Farm</span><span class="aid">aid</span>
@@ -25,68 +26,82 @@
             <a href="../pages/recommendation.html" class="menu">Recommendations</a>
             <a href="../pages/expert.html" class="menu">Experts</a>
             <a href="../pages/contact.html" class="menu">Contact</a>
-            <a href="../pages/login.html" class="menu">Login</a>
-            <a href="../pages/sign-up.html" class="menu">Sign Up</a>
+            <a href="./../pages/login.html" class="menu">Login</a>
+            <a href="./../pages/singup.html" class="menu">Sign Up</a>
      
-
-
-
         </div>
     </div>
-      </nav>
 
-    </div>
-  </div>
-
-  <div class="div2">
-    <div class="container">
-
-      <!-- Left Side Login -->
-      <div class="left">
-        <h2 class="heading-container">Login</h2>
-        <p>Enter to improve your sleep and bring peace to your life</p>
+    
+ <div class="wrapper">
+        <div class="container">
 
 
+            <div class="left-card">
+                <img src="../images/welcome-singup.jpg" class="avatar" />
+                <i>
+                    <h2>Welcome!!!</h2>
+                </i>
+                <p>Enter Your Personal Details and start your journey with us!!!</p>
 
-        <a href="sakshibhosale749@gmail.com" target="_blank" class="social-btn google-link">
-          <img src="./../images/google-icon.png" alt="google icon" class="icon" />
-          Sign in with Google
-        </a>
-
-        <a href="https://www.facebook.com/" target="_blank" class="social-btn fb-link">
-          <img src="./../images/facebook-icon.png" alt="Facebook Icon" class="icon">
-          Sign in with Facebook
-        </a>
-
-
-        <form>
-          <div class="divider">or</div>
-
-          <label>Email</label>
-          <input type="email" class="input-field" placeholder="Enter your email">
-
-          <label>Password</label>
-          <input type="password" class="input-field" placeholder="Enter your password">
+            </div>
 
 
 
-          <button class="login-btn">Login</button>
-      </div>
-      </form>
 
-      <!-- Right Side Image -->
-      <div class="right">
-        <div class="right-text">
-          <h2>Welcome Back!</h2>
-          <p>Don't have an account? <a href="./../pages/sign-up.html" class="signup-link">Sign Up</a></p>
+            <div class="card">
+                <h2 class="title">Create your account</h2>
+
+                <div class="social-row">
+                    <button class="social-btn">
+                        <a href="mailto:akshatadawange86@gmail.com" target="_blank" class="google-link">
+                            <img src="../images/google-icon.png" class="icon"> Google
+                    </button>
+                    </a>
+                    <button class="social-btn">
+                        <a href="https://github.com/Akshata05Dawange" target="_blank" class="github-link">
+                            <img src="../images/github.png" class="icon"> Github
+                    </button>
+                    </a>
+                </div>
+
+
+                <p class="or">OR</p>
+
+
+                <form>
+                    <div class="name-group">
+
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+
+                    <input type="text" placeholder="Username" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+
+                    <p class="terms">Minimum length is 8 characters.</p>
+                    <button type="submit" class="signup-btn">
+                        <a href="../index.html" target="_blank" class="github-link">
+                            <span>Signup</span>
+                            <img src="../images/signup.png" class="signup-icon">
+                    </button>
+                    </a>
+
+                    <p class="terms">
+                        By creating an account, you agree to the
+                        <a href="">Terms of Service</a>.
+                    </p>
+
+                    <p class="login-link">
+                        Already have an account? <a href="../pages/login.html">Login</a>
+                    </p>
+
+                </form>
+            </div>
         </div>
-      </div>
-
-    </div>
-
-  </div>
-
-
+ </div>       
+            
  <!-- FOOTER START -->
 <div class="footer-container">
 
@@ -182,5 +197,10 @@
 <!-- FOOTER END -->
 
 
+  
+
 </body>
-        </html>
+</html>
+
+
+
